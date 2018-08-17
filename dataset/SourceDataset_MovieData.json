@@ -1,0 +1,40 @@
+{
+	"name": "SourceDataset_MovieData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"structure": [
+			{
+				"name": "ID",
+				"type": "Int32"
+			},
+			{
+				"name": "Title",
+				"type": "String"
+			},
+			{
+				"name": "ReleaseDate",
+				"type": "DateTime"
+			},
+			{
+				"name": "Genre",
+				"type": "String"
+			},
+			{
+				"name": "Price",
+				"type": "Decimal"
+			},
+			{
+				"name": "Rating",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[Movie]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

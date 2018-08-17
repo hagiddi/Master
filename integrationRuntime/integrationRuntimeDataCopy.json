@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeDataCopy",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
